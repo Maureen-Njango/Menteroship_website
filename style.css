@@ -15,6 +15,7 @@
 #landingpage{
     display: flex;
     justify-content: center;
+    font-size: x-large;
     
 }
 .header{
@@ -24,6 +25,7 @@
     display: flex;
     justify-content: center;
     gap: 8%;
+   font-size: x-large;
     
 }
 body{
@@ -45,7 +47,7 @@ body{
     justify-content: center;
     background-color: rgb(241, 236, 245);
     width: 100%;
-    height: 10%;
+    height: 100%;
 }
 .mentorslogo{
     width: 95px;
@@ -56,7 +58,7 @@ body{
 
 }
 .h2{
-    font-size: medium;
+    font-size: larger;
 }
 /* button{
     background-color: rgb(38, 255, 0);
