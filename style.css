@@ -1,0 +1,514 @@
+#nuvbar{
+    display: flex;
+    
+    gap: 10%;
+    background-color: rgb(238, 235, 239);
+    height: 80px;
+   
+   list-style-type: none;
+}
+#nuvbar a{
+ text-decoration: none;;
+ margin-top: 2%;
+}
+
+#landingpage{
+    display: flex;
+    justify-content: center;
+    
+}
+.header{
+
+}
+#profilesection{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    
+}
+body{
+    /* background-image: url(media/animation.webp);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(153, 134, 117);
+    
+}
+.mentorsprofile{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#footer{
+    display: flex;
+    gap: 13%;
+    justify-content: center;
+    background-color: rgb(241, 236, 245);
+    width: 100%;
+    height: 10%;
+}
+.mentorslogo{
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+    margin-bottom: 6%;
+    
+
+}
+.h2{
+    font-size: medium;
+}
+/* button{
+    background-color: rgb(38, 255, 0);
+    border-radius: 10%;
+    height: 30px;
+    margin-top: 3%;
+
+} */
+
+
+
+#form{
+    
+    /* background-color: crimson; */
+    border: solid 1px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 24px;
+}
+.input{
+    padding: 14px 70px;
+    border-radius: 1px;
+    border: solid 1px;
+    width: 50%;
+
+}
+button{
+    /* padding: 14px 300px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1px; */
+}
+center{
+    width: 1%;
+    height: 1px;
+    margin-left: 10;
+    margin-right: 30;
+}
+middle{
+    width: 3;
+    height: 1;
+    margin-left: 3;
+    margin-right: 4;
+}
+
+
+
+
+
+
+ 
+  h1{
+     text-align: center;
+     margin: 5%;
+     /* font-size: 3rem; */
+     font-size: large;
+     
+  }
+  .h2{
+
+  }
+  
+
+  
+   
+ 
+.row{
+    margin-left: 35%;
+}
+input{
+    padding: 10px 100px 10px 10px;
+    border-radius: 5px; 
+
+}
+.container{
+    border-radius: 12px;
+    
+    width: 80%;
+    margin-left: 8%;
+}
+
+
+
+ #taskList {
+    margin-top: 20px;
+}
+.task {
+    font-size: 20px;
+    margin: 5px;
+} 
+.done {
+    text-decoration: line-through;
+}
+.myToDo{
+    border-radius: 12px;
+    width: 60%;
+    /* background-color: blueviolet; */
+    margin-left: 10%;
+}
+#inputField{
+    margin-left: 40%;
+}
+#bornacrime{
+    display: flex;
+
+}
+#ToDo{
+    display: flex;
+    margin-right: 20%;
+}
+.book{
+   width: 200px;
+   height: 200px;
+}
+
+
+
+@media screen and ( max-width: 900px){
+    #nuvbar{
+        gap: -1%;
+        background-color: rgb(238, 235, 239);
+       
+       list-style-type: none;
+       /* flex-wrap: wrap; */
+    }
+    #nuvbar a{
+     text-decoration: none;;
+     flex-wrap: wrap;
+     font-size: x-small;
+    }
+    
+    #landingpage{
+        flex-wrap: wrap;
+        
+        
+    }
+    .header{
+    
+    }
+    #profilesection{
+        flex-wrap: wrap;
+        
+        
+    }
+    body{
+        /* background-image: url(media/animation.webp);
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background-color: rgb(153, 134, 117);
+
+        
+    }
+    .mentorsprofile{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    #footer{
+       gap: 2%;
+        background-color: rgb(241, 236, 245);
+    }
+    .mentorslogo{
+        width: 50px;
+        height: 50px;
+        
+    
+    }
+    
+    
+    #form{
+        
+        /* background-color: crimson; */
+        border: solid 1px;
+        margin: 0 auto;
+        width: 56%;
+        padding: 80px;
+    }
+    .input{
+        padding: 1px 30px;
+        border-radius: 1px;
+        border: solid 1px;
+        width: 30%;
+    
+    }
+    /* button{
+        /* padding: 14px 300px;
+        border: none;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 1px; */
+        /* background-color: rgb(38, 255, 0);
+    border-radius: 0%;
+    height: 30px;
+    margin-top: 3%;
+    font-size: x-small;
+
+    } */ */
+    center{
+        width: 1%;
+        height: 1px;
+        margin-left: 10;
+        margin-right: 30;
+    }
+    middle{
+        width: 3;
+        height: 1;
+        margin-left: 3;
+        margin-right: 4;
+    }
+    
+    
+    
+    
+    
+    
+     
+      h1{
+         text-align: center;
+         margin: 5%;
+         font-size: 3rem;
+         font-size: medium;
+         
+      }
+      .h2{
+        font-size: medium;
+      }
+     
+
+    
+     
+    .row{
+        margin-left: 35%;
+    }
+    input{
+        padding: 10px 100px 10px 10px;
+        border-radius: 5px; 
+    
+    }
+    .container{
+        border-radius: 12px;
+        
+        width: 80%;
+        margin-left: 8%;
+    }
+    
+    
+    
+     #taskList {
+        margin-top: 20px;
+    }
+    .task {
+        font-size: 20px;
+        margin: 5px;
+    } 
+    .done {
+        text-decoration: line-through;
+    }
+    .myToDo{
+        border-radius: 12px;
+        width: 60%;
+        /* background-color: blueviolet; */
+        margin-left: 20%;
+    }
+    #inputField{
+        margin-left: 10%;
+    }
+    a{
+        font-size: small;
+    }
+    #ToDo{
+      
+        margin-right: 20%;
+        flex-wrap: wrap;
+    }
+    
+
+
+
+}
+@media screen and ( max-width: 420px){
+    #nuvbar{
+        gap: 2%;
+        background-color: rgb(238, 235, 239);
+        /* width: 110%; */
+       
+       list-style-type: none;
+       font-size: small;
+       
+       /* flex-wrap: wrap; */
+       /* .navbar {padding-top: 15px;} */
+       /* .navbar  {font-size: 18px;} */
+    }
+    
+    #nuvbar a{
+     text-decoration: none;
+    }
+    
+    #landingpage{
+        flex-wrap: wrap;
+        
+        
+    }
+    .header{
+    
+    }
+    #profilesection{
+        flex-wrap: wrap;
+        
+        
+    }
+    body{
+        /* background-image: url(media/animation.webp);
+        background-repeat: no-repeat;
+        background-size: cover; */
+        
+    }
+    .mentorsprofile{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    #footer{
+       
+        background-color: rgb(241, 236, 245);
+        font-size: xx-small;
+        gap: -1px;
+        /* height: 250px; */
+    }
+    .mentorslogo{
+        width: 50px;
+        height: 50px;
+        
+    
+    }
+    
+    
+    #form{
+        
+        /* background-color: crimson; */
+        border: solid 1px;
+        margin: 0 auto;
+        width: 56%;
+        padding: 80px;
+    }
+    .input{
+        padding: 1px 30px;
+        border-radius: 1px;
+        border: solid 1px;
+        width: 30%;
+    
+    }
+    /* button{ */
+        /* /* padding: 14px 300px;
+        border: none;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 1px; */
+        /* background-color: rgb(38, 255, 0);
+        border-radius: 0%;
+        height: 30px;
+        margin-top: 3%;
+        font-size: x-small;
+        gap: 1%;
+    
+    }  */
+    center{
+        width: 1%;
+        height: 1px;
+        margin-left: 10;
+        margin-right: 30;
+    }
+    middle{
+        width: 3;
+        height: 1;
+        margin-left: 3;
+        margin-right: 4;
+    }
+    
+    
+    
+    
+    
+    
+     
+      h1{
+         text-align: center;
+         margin: 5%;
+         font-size: 3rem;
+         font-size: medium;
+         
+      }
+      .h2{
+        font-size: medium;
+      }
+     
+
+    
+     
+    .row{
+        margin-left: 5%;
+    }
+    input{
+        padding: 10px 100px 10px 10px;
+        border-radius: 5px; 
+    
+    }
+    .container{
+        border-radius: 12px;
+        
+        width: 80%;
+        margin-left: -1%;
+    }
+    
+    
+    
+     #taskList {
+        margin-top: 20px;
+    }
+    .task {
+        font-size: 20px;
+        margin: 5px;
+    } 
+    .done {
+        text-decoration: line-through;
+    }
+    .myToDo{
+        border-radius: 12px;
+        width: 20%;
+        /* background-color: blueviolet; */
+        margin-left: 8%;
+    }
+    #inputField{
+        margin-left: -1%;
+    }
+    a{
+        font-size: small;
+    }
+}
+    /* button{
+        background-color: rgb(38, 255, 0);
+        border-radius: 5%;
+        height: 29px;
+        margin-top: 3%;
+    
+    } /*
+
+
+   
+
+
+
+
+
+
