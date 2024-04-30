@@ -178,7 +178,10 @@ input{
 
 }
 #borna{
-    font-size: larger;
+    font-size: large;
+    text-align: center;
+    text-align: left;
+    padding: 60px 70px;
 }
 
 
