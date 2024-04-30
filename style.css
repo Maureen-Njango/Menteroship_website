@@ -183,6 +183,9 @@ input{
     text-align: left;
     padding: 60px 70px;
 }
+#born{
+    font-size: xx-large;
+}
 
 
 @media screen and ( max-width: 900px){
