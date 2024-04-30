@@ -174,7 +174,9 @@ input{
    width: 200px;
    height: 200px;
 }
-
+#borna{
+    font-size: larger;
+}
 
 
 @media screen and ( max-width: 900px){
