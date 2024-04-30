@@ -171,8 +171,11 @@ input{
     margin-right: 20%;
 }
 .book{
-   width: 200px;
-   height: 200px;
+   width: 300px;
+   height: 300px;
+   margin-left: 40%;
+   
+
 }
 #borna{
     font-size: larger;
