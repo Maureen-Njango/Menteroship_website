@@ -121,6 +121,9 @@ middle{
   .h2{
 
   }
+  a{
+    text-decoration: none;;
+  }
   
 
   
@@ -185,6 +188,9 @@ input{
 }
 #born{
     font-size: xx-large;
+}
+.butt{
+  background-color: aquamarine;
 }
 
 
